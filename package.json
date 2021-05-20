@@ -1,20 +1,22 @@
 {
   "name": "xstate-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:codingedgar/xstate-logger.git",
   "author": "codingedgar <codingedgar@gmail.com>",
   "license": "MIT",
   "description": "redux-logger but for XState",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {
-    "typescript": "4.2.4"
-  },
   "peerDependencies": {
     "xstate": "^4.11.0"
+  },
+  "devDependencies": {
+    "typescript": "4.2.4"
   }
 }
