@@ -1,12 +1,21 @@
 {
   "name": "xstate-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "git@github.com:codingedgar/xstate-logger.git",
   "author": "codingedgar <codingedgar@gmail.com>",
   "license": "MIT",
   "description": "redux-logger but for XState",
+  "keywords": [
+    "state",
+    "machine",
+    "statechart",
+    "scxml",
+    "xstate",
+    "logger",
+    "xstate-logger"
+  ],
   "files": [
     "lib/**/*"
   ],
